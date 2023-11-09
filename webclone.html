@@ -1,0 +1,259 @@
+<html>
+    <style>
+        body {
+            background-image: linear-gradient(to right, blue , red);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+        }
+        .header {
+            margin-left: 1cm;
+            margin-top: 1cm;
+            display: flex;
+            color: white;
+        }
+        .header, img {
+            width: 1.5cm;
+            border-radius: 50%;
+            background-color: blue;
+            margin-right: 1cm;
+        }
+        .headerlinks {
+            display: flex;
+            margin-left: 22cm;
+        }
+        .beginning {
+            
+        }
+        .intro {
+          display: inline-block;
+        }
+        .icons {
+            flex-direction: column;
+            display: inline-flex;
+            margin-top: 5cm;
+          
+        }
+        
+        .centertext {
+            color: white;
+            display: flex;
+            margin-left: 8cm;
+            align-items: center;
+            text-align: center;
+            display: inline-flex; 
+            flex-direction: column;
+        }
+        .project {
+           margin-top: 1cm; 
+           width: 8cm;
+           height: 2cm;
+           font-size: 20px;
+           border-radius: 8px;
+        }
+        .project:hover {
+            cursor: pointer;
+        }
+        .intro2 {
+            text-align: center;
+            margin-top: 4.5cm;
+        }
+        hr {
+            width: 2%
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .factscolumn1 {
+            display: inline-block;
+        }
+        .projects, p {
+            color: grey;
+        }
+        .projects, h2 {
+            color: black;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+        a:hover {
+            cursor: pointer;
+            color: lightblue;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .icons:hover {
+            cursor: pointer;
+        }
+        .factscolumn1, strong {
+            color: black;
+        }
+        .bottom, img:hover {
+            cursor: pointer;
+        }
+    </style>
+
+    <body>
+        <div class="header">
+            <img src="john-doe.png">
+            <h3><a href="">John</a></h3>
+            <h3 style="margin-left: .3cm; color: black;">Doe</h3>
+            <div class="headerlinks">
+            <h3 style="margin-right: 1cm;"><a href="">Home</a></h3>
+            <h3 style="margin-right: 1cm;"><a href="">About</a></h3>
+            <h3 style="margin-right: 1cm;"><a href="">Projects</a></h3>
+            <h3 style="margin-right: 1cm;"><a href="">Contact</a></h3>
+            </div>
+        </div>
+    <section class="beginning">
+        <div class="intro">
+            <div class="icons">
+                <div style="border: 1px solid white; width: 1.5cm;">
+                <img src="linkedin-ico.png" alt="">
+                </div>
+                <div>
+                <img style="display: flex; border: 1px solid white; width: 1.5cm; border-radius: 0;" src="github-ico.png" alt="">
+                </div>
+                <div>
+                <img style="display: flex; border: 1px solid white; width: 1.5cm; border-radius: 0;" src="twitter-ico.png" alt="">
+                </div>
+                <div>
+                <img style="display: flex; border: 1px solid white; width: 1.5cm; border-radius: 0;" src="yt-ico.png" alt="">
+                </div>
+                <div>
+                <img style="display: flex; border: 1px solid white; width: 1.5cm; border-radius: 0;" src="insta-ico.png" alt="">
+                </div>
+            </div>
+            <div class="centertext">
+                <h1 style="font-size: 30px;">HEY, MY NAME IS JOHN DOE</h1>
+                <p style="font-size: 18px; margin-top: 2cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo<br>
+                quae quod deserunt eius sapiente solutions for complex problems</p>
+                <button class="project" type="button" href="" style="border: 0;"><strong>Projects</strong></button>
+            </div>
+            
+        </div>
+    </section>
+    <section class="aboutme" style="background-color: whitesmoke; margin-top: 2cm;">
+        <div class="intro2">
+            <h1 style="font-size: 40px; padding-top: 1cm;"><strong>About Me</strong></h1>
+            <p style="margin-top: 2cm; color: grey; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod</p>
+            <p style="margin-top: 1cm; color: grey; font-size: 20px;">deserunt eius sapiente</p>
+        </div>
+        <div class="factscolumns1" style="color:lightgrey ; display: inline-block; margin-left: 5cm; margin-top: 1cm;">
+            <h1 style="color: black; font-size: 25px; margin-top: 3cm;">Get to know me!</h1>
+            <p style="margin-top: 2cm;">Hey! it's <strong>John Doe</strong> and I'm a <strong>Frontend Web Developer</strong><br>
+            located in Los Angeles. I've done <strong>remote</strong> projects for<br>
+            agencies, consulted for startups, and collaborated with<br>
+            talented people to create <storng>digital products</storng> for both business<br>
+            and consumer use.</strong></p>
+            <p style="margin-top: 1cm;">I'm a bit of a digital product junky. Over the years, I've used<br>
+            hundreds of web and mobile apps in different industries and<br>
+            verticals. Feel free to <strong>contact</strong> me here.</p> 
+            
+        </div>
+        <div class="myskills" style="margin-left: 8cm; display: inline-block;">
+            <h1 style="color: black;;">My Skills</h1>
+            <div class="skilltags">
+               <div style="display: flex;">
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>HTML</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>CSS</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>JavaScript</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>React</p></div>
+              </div>
+              <div style="display: flex; margin-top: .5cm;">
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>SASS</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>GIT</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>Shopify</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>Wordpress</p></div>
+            </div>
+            <div style="display: flex; margin-top: .5cm;">
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>Google ADS</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>Facebook ADS</p></div>
+                <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm;"><p>Android</p></div>
+            </div>
+            <div style="background-color: lightgrey; border-radius: .2cm; padding-left: .5cm; padding-right: .5cm; margin-right: .5cm; display: inline-block; margin-top: .5cm;"><p>IOS</p></div>
+        </div>
+    </section>
+    <div style="background-color: whitesmoke; padding-bottom: 3cm;">
+        <button type="button" style="background-color: blue; color: white; padding-left: 3cm; padding-right: 3cm; padding-top: .5cm; padding-bottom: .5cm; margin-left: 5cm; border: 0; border-radius: 5px; margin-top: 1cm; font-size: 20px;">Contact</button>
+    </div>
+    <section class="projects" style="background-color: white;padding-top: 1cm;">
+        <div style="text-align: center;">
+            <h1 style="font-size: 40px;">Projects</h1>
+            <p style="color: grey; margin-top: 2cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod</p>
+            <p style="color: grey;">deserunt eius sapiente</p>
+        </div>
+        <div style="display: inline-block;">
+            <img style="width: 15cm; height: 9cm; border-radius: 0; margin-top: 3cm; margin-left: 5cm; margin-top: 5cm;" src="project-mockup-example.jpeg" alt="">
+        </div>
+        <div style="display:inline-block; margin-left: 1cm;">
+            <h2 style="margin-bottom: 3cm;">Project 1</h2>
+            <p style="margin-top: 2cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic<br>
+            facilis tempora, explicabo quae quod deserunt eius sapiente<br>
+            praesentium.</p>
+            <button type="button" style="margin-top: 1cm; background-color: blue; padding-left: 1cm;padding-right: 1cm; padding-top: .25cm; padding-bottom: .25cm; color: white; border: 0; border-radius: .2cm; margin-bottom:;">Case Study</button>
+        </div>
+        <div style="display: inline-block;">
+            <img style="width: 15cm; height: 10cm; border-radius: 0; margin-top: 3cm; margin-left: 5cm;" src="project-mockup-example.jpeg" alt="">
+        </div>
+        <div style="display:inline-block; margin-left: 1cm;">
+            <h2 style="margin-bottom: 3cm;">Project 2</h2>
+            <p style="margin-top: 2cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic<br>
+            facilis tempora, explicabo quae quod deserunt eius sapiente<br>
+            praesentium.</p>
+            <button type="button" style="margin-top: 1cm; background-color: blue; padding-left: 1cm;padding-right: 1cm; padding-top: .25cm; padding-bottom: .25cm; color: white; border: 0; border-radius: .2cm; margin-bottom:;">Case Study</button>
+        </div>
+        <div style="display: inline-block;">
+            <img style="width: 15cm; height: 10cm; border-radius: 0; margin-top: 3cm; margin-left: 5cm;" src="project-mockup-example.jpeg" alt="">
+        </div>
+        <div style="display:inline-block; margin-left: 1cm; padding-bottom: 3cm;">
+            <h2 style="margin-bottom: 3cm;">Project 3</h2>
+            <p style="margin-top: 2cm;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic<br>
+            facilis tempora, explicabo quae quod deserunt eius sapiente<br>
+            praesentium.</p>
+            <button type="button" style="margin-top: 1cm; background-color: blue; padding-left: 1cm;padding-right: 1cm; padding-top: .25cm; padding-bottom: .25cm; color: white; border: 0; border-radius: .2cm;">Case Study</button>
+        </div>
+    </section>
+    <section class="contact" style="margin-top: 2cm;">
+        <div style="text-align: center; color: white; margin-top: 3cm; margin-bottom: 2cm;">
+            <h1 style="font-size: 40px;">Contact</h1>
+            <p style="color: white; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod<br>
+            deserunt eius sapiente</p>
+        </div>
+        <div class="infoform" style="background-color: white; margin-left: 10cm; margin-right: 10cm; border-radius: 4px; padding-bottom: 2cm;">
+            <div style="padding-left: 1cm; padding-top: 1cm;">
+            <p>Name</p>
+            <p style="background-color: grey; color: darkgray; display: inline; padding-right: 13cm; padding-left: 1cm; padding-top: .2cm; padding-bottom: .2cm; border-radius: .1cm;">Enter Your Name</p>
+            </div>
+            <div style="padding-left: 1cm; padding-top: 1cm;">
+                <p>Email</p>
+                <p style="background-color: grey; color: darkgray; display: inline; padding-right: 13cm; padding-left: 1cm; padding-top: .2cm; padding-bottom: .2cm; border-radius: .1cm;">Enter Your Email</p>
+            </div>
+                <div style="padding-left: 1cm; padding-top: 1cm;">
+                    <p>Message</p>
+                    <p style="background-color: grey; color: darkgray; display: inline; padding-right: 12.6cm; padding-left: 1cm; padding-top: .2cm; padding-bottom: 10cm; border-radius: .1cm;">Enter Your Message</p>
+                    <button type="button" style="background-color: blue; padding-right: 2cm; padding-left: 2cm; padding-top: .5cm; padding-bottom: .5cm; border: 0; border-radius: .2cm; color: white; margin-top: 12cm; margin-left: 12.2cm;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="end" style="background-color: black; margin-top: 1cm;">
+        <div style="color: white; margin-left: 2cm; padding-top: 2cm; display: inline-block;">
+            <h1>John Doe</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis tempora<br>
+            explicabo quae quod deserunt</p>
+        </div>
+        <div class="bottom" style="display: inline-block;">
+            <div style="margin-left: 13cm; padding-bottom: 2cm;">
+                <h1 style="color: white;">Social</h1>
+                <img style="border-radius: 0; width: .5cm; height: .5cm; background-color: black;" src="linkedin-ico.png" alt="">
+                <img style="border-radius: 0; width: .5cm; height: .5cm; background-color: black;" src="github-ico.png" alt="">
+                <img style="border-radius: 0; width: .5cm; height: .5cm; background-color: black;" src="twitter-ico.png" alt="">
+                <img style="border-radius: 0; width: .5cm; height: .5cm; background-color: black;" src="yt-ico.png" alt="">
+                <img style="border-radius: 0; width: .5cm; height: .5cm; background-color: black;" src="insta-ico.png" alt="">
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
+ 
